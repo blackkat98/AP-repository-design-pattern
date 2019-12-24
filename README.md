@@ -5,7 +5,7 @@
 <h3 style="color: #ff0000;"> Usages </h3>
 <ul>
   <li> Create folder <b> dev/repositories </b> </li>
-  <li> Copy both BlankRepository.php and BlankContract.php into that folder </li>
+  <li> Copy both <b> BlankRepository.php </b> and <b> BlankContract.php </b> into that folder </li>
   <li> Register <b> dev/repositories </b> into <b> app.ini </b> </li>
   <li> Foreach model, create its own repository class, extending BaseRepository and override function model() like below: <br>
     return \namespace_name\ModelName::class;
